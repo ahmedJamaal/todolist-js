@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Todo List</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="lib/css/Awsome-button.css" rel="stylesheet">
+  <link href="lib/css/bootstrap.css" rel="stylesheet">
+  <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  </head>
+  <body>
+<div class="container">
+<div class="row">
+
+<div class="columas">
+
+    <div class="col-md-4">
+      <div class="task">
+        <h1>TodoList</h1>
+        <br>
+        <h6>Welcome To My TodoList Applications</h6>
+        <br>
+        <div class="md-form">
+          <label for="inputMDEx">Note Name <span id="char_count_input"></span> </label>
+          <input type="text" id="inputName" class="form-control" maxlength="15" onkeyup="CountInput(this.value)">
+
+      </div>
+      <div class="md-form mb-4 pink-textarea active-pink-textarea-2">
+        <label for="form17">Note Description</label>
+        <textarea id="inputDetils" class="md-textarea form-control" rows="3" maxlength="400"onkeyup="CountTextArea(this.value)"></textarea>
+        <label for="form17"><span id="char_count_area"></span></label>
+      </div>
+      <button type="button" class="btn btn-primary" onclick="newElement()">Save</button>
+      </div>
+    </div>
+
+
+    <div class="col-md-8">
+      <div class="todoList">
+        <h1>Notes</h1>
+        <br>
+      <ul class="list-element overflow-auto" id="myUl">
+
+
+
+      <li class="list">
+        <h4>task name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </li>
+      <li class="list">
+        <h4>task nameaaa</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </li>
+    </ul>
+    </div>
+    </div>
+  </div>
+</div>
+
+</div>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

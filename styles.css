@@ -1,0 +1,40 @@
+body
+{
+	font-family: sans-serif;
+	line-height: 1.15;
+  background: #171A21;
+  color: #fff;
+
+}
+.columas
+{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+}
+.todoList
+{
+
+
+}
+
+.list-element
+{
+
+height: 450px;
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+.list
+{
+position: relative;
+}
+.close
+{
+	position: absolute;
+top: 0;
+right: 10px;
+}
